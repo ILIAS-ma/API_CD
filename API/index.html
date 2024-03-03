@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simple-lightbox.min.css">
+    <link rel="stylesheet" href="pageprincipale.css">
+</head>
+<body>
+    <header><!--  <p>ici dans mon header j'ai créé deux classes pour créer ma  barre de navigation la classe "header" est la classe principale 
+        avec une seconde classe "navbar" avec lequel j'ai utilisé un ul qui permets de regrouper plusieurs elements pour créer une liste et un
+         li pour faire une seconde liste avec un  à qui permet de rajouter le lien de chaque page web avec le mot qu'on veut affiché , ensuite
+          dans cette classe j'ai créé une barre de recherche en le mettant dans un "form" qui permet de mettre un imput pour créer la barre de
+           recherche..</p> -->
+        <div class="header">
+            <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li><a href="homepage.html">LES CARTES</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </ul>
+           
+            <form>
+                <input type="search" name="q" placeholder="Recherche">
+            </form>
+        </nav>
+        </div>
+    </header>
+
+    <div class="logo"><!--  <p>J'ai créé un class logo pour mettre l'image principale de cette page web qui se situe juste en dessous de la barre
+         de navigation et un h2 pour créer une bande blanche pour tout délimitée</p> -->
+        <img src="./img/logo 1.png" alt="Logo">
+    </div>
+
+    <h2>deco</h2> 
+
+    <div class="container"><!--  <p>J'ai créé deux class la première"container" et "container2" ou on a un titre un h3 et h5 pour afficher le titre 
+        le "p" pour créer un petit paragraphe pour décrire la contenue et une image qui permet de représenter le texte</p> -->
+        <img src="./img/logo2.png" alt="Description de l'image">
+        <div class="text"><!--  <p>une div class pour mettre le titre ainsi que le texte dedans pour les regrouper</p> -->
+            <h3>Description du jeu</h3>
+            <p>Le jeu de cartes Harry Potter propose une expérience immersive où les joueurs incarnent des personnages emblématiques de Poudlard, tels que Harry, Hermione et Ron. Chaque carte possède des capacités uniques, et les joueurs peuvent coopérer ou s'affronter pour sauver l'école des forces obscures. Avec ses illustrations magnifiques et son gameplay captivant, le jeu offre une plongée passionnante dans l'univers magique de Harry Potter.</p>
+        </div>
+    </div>
+   <h4>As-tu une maison préférée à Poudlard ?</h4>
+    <div class="swiper mon-slider"><!--  <p>nous avons ici une class "swaper mon-slider" qui permet de créer un slider nous avons une class "swiper-wrapper"
+         qui contient une autre class "swiper-slide" qui contient des images qui vont défiler les images dans cette classe</p> -->
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./img/bleu.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/jaune.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/rouge.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/vert.png" alt="">
+            </div>
+          
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> 
+        <div class="swiper-pagination"></div>
+        </div>
+        <div class="container2">
+          <div class="text"><!--  <p>une div class pour mettre le titre ainsi que le texte dedans pour les regrouper</p> -->
+                <h5>L'histoire des jeux de cartes Harry Potter </h5>
+                <p>Les premiers jeux de cartes à collectionner Harry Potter ont introduit les joueurs dans un univers où ils pouvaient collectionner des cartes représentant leurs personnages préférés, des créatures magiques, des sorts et des artefacts emblématiques. Ces cartes étaient souvent utilisées pour des duels de sorciers simulés, où les joueurs pouvaient affronter leurs amis en utilisant des stratégies basées sur les pouvoirs et les attributs de leurs cartes.</p>
+            </div>  
+            <img src="./img/lunette.png" alt="Description de l'image">
+        </div>
+      <footer> <!-- <p>ici nous avons un  "footer" pour créer une zone tout en bas de la  page web</p> -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eaque, nemo voluptate, esse quo cumque, praesentium voluptatum quos officiis numquam assumenda quod labore quisquam a! Doloremque obcaecati quasi illo suscipit!
+      </footer>
+        
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simplelightbox.min.js"></script>
+<script src="pageprincipale.js"></script>
+</body>
+</html>

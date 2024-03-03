@@ -1,0 +1,179 @@
+*{/*ici on a la couleur du font dnas toute la page web*/
+  background-color: rgb(192, 192, 192);
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Arial', sans-serif;
+   
+  }
+  .header{
+    background-color: rgb(116, 116, 116);
+  }
+
+
+
+
+
+.navbar { /*ici on a la barre de rechercge avec un flex wrap afin de tout reunir sans espace avec des  marge pour délimiter la barre de navigation avec un background */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-right: 501px;
+ margin-bottom: 10px;
+ background-color: rgb(116, 116, 116);
+ margin-top: 10px;
+}
+
+
+
+.menu {/* le menu contient la barre de navigation et la barre de recherche j ai utilisé un hover avec de rajouter un effet lorsqu'on passe le curseur de la souris par dessus  sa modifie la couleur ainsi de la taille en mettant un scale*/
+ list-style: none;
+ margin: 0;
+ padding: 20px;
+ display: flex;
+ margin-left: 470px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ background-color: rgb(116, 116, 116);
+ text-decoration: underline;
+ color: #f7f7f7;
+}
+
+.menu li {
+ margin-right: 20px;
+
+ 
+}
+.menu li:hover {
+ margin-right: 20px;
+ 
+}
+
+.menu a {
+ 
+ color: white;
+ font-weight: bold;
+ font-size: 16px;
+ background-color: rgb(116, 116, 116);
+ 
+}
+.menu a:hover{
+ text-decoration: none;
+ color: rgb(255, 230, 0);
+ font-weight: bold;
+ font-size: 16.1px;
+
+}
+  
+  form {/* le form est utilié pour la barre de recherche avec le input j ai tutilisé un flex box wrap pour reunir avec la barre de navigation*/
+    display: flex;
+    align-items: center;
+    background-color: rgb(116, 116, 116);
+  }
+  
+  input[type="search"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #f7f7f7;
+    height: 20px;
+  }
+  
+  input[type="search"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgb(229, 183, 2);
+   
+  }
+  h2{ /* ici on a un titre que j ai centrer agrandit et changé de couleur avec le titre souligné avec une police d'écriture */
+    color: #f7f7f7;
+    background-color: #f7f7f7;
+  }
+  .container {
+    display: flex;
+    align-items: center; /* Alignement vertical */
+    margin-right: 200px;
+}
+.container img {
+  height: 400px;
+  width: auto;
+}
+.logo img {
+  height: 200px;
+  margin-left: 490px;
+  padding: 50px;
+}
+p{/* le p est le paragraphe ici j ai modifié la couleur pour le mettre en blanc et j ai aussi modifié la police d'écriture */
+  color: aliceblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+}
+h3{ /* ici on a un titre que j ai centrer agrandit et changé de couleur avec le titre souligné avec une police d'écriture */
+  color: #f7f7f7;
+  text-decoration: underline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+h4{
+  color: #f7f7f7;
+  text-decoration: underline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: large;
+}
+.swiper-slide{
+  height: 60vh;
+  padding: 50px;
+  }
+.swiper-slide {
+  text-align: center; font-size: 18px; 
+  display: flex;
+  justify-content: center; align-items: center;
+  
+}
+.swiper-pagination{
+color:rgb(229, 183, 2)
+
+}
+.swiper-button-next{
+color:rgb(229, 183, 2);
+margin-right: 200px;
+
+}
+.swiper-button-prev{
+  margin-left: 200px;
+color:rgb(229, 183, 2)
+
+}
+.swiper  img{
+  height: 300px;
+}
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.container2 img {
+  width: 20%;
+  margin-right: 250px;
+}
+
+.container2 .text {
+  width: 45%; 
+  margin-left: 90px;
+}
+h5{ /* ici on a un titre que j ai centrer agrandit et changé de couleur avec le titre souligné avec une police d'écriture */
+  color: #f7f7f7;
+  text-decoration: underline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: large;
+}
+footer{
+  background-color: black;
+  height: 90px;
+  margin-top: 30px;
+}

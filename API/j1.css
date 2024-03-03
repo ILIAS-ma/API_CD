@@ -1,0 +1,204 @@
+
+*{
+  background-color: rgb(192, 192, 192); /*ici on a la couleur du font dnas toute la page web*/
+}
+
+body {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+gap: 50px;
+}
+   
+
+.header{
+    background-color: rgb(116, 116, 116);
+ 
+}
+   
+  
+
+
+
+
+.navbar {              /*ici on a la barre de rechercge avec un flex wrap afin de tout reunir sans espace avec des  marge pour délimiter la barre de navigation avec un background */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-right: 501px;
+ margin-bottom: 30px;
+ margin-top: 10px;
+ background-color: rgb(116, 116, 116);
+
+}
+
+
+
+.menu {           /* le menu contient la barre de navigation et la barre de recherche j ai utilisé un hover avec de rajouter un effet lorsqu'on passe le curseur de la souris par dessus  sa modifie la couleur ainsi de la taille en mettant un scale*/
+ list-style: none;
+ margin: 0;
+ padding: 20px;
+ display: flex;
+ margin-left: 470px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ background-color: rgb(116, 116, 116);
+ text-decoration: none;
+}
+
+.menu li {
+ margin-right: 20px;
+ text-decoration: none;
+ 
+}
+.menu li:hover {
+ margin-right: 20px;
+ text-decoration: none;
+ 
+}
+
+.menu a {
+ 
+ color: white;
+ font-weight: bold;
+ font-size: 16px;
+ background-color: rgb(116, 116, 116);
+ text-decoration: none;
+ 
+}
+.menu a:hover{
+ text-decoration: none;
+ color: rgb(255, 230, 0);
+ font-weight: bold;
+ font-size: 16.1px;
+ text-decoration: none;
+
+}
+
+form { /* le form est utilié pour la barre de recherche avec le input j ai tutilisé un flex box wrap pour reunir avec la barre de navigation*/
+ display: flex;
+ align-items: center;
+ background-color: rgb(116, 116, 116);
+ text-decoration: none;
+}
+
+input[type="search"] {
+ padding: 10px;
+ border: none;
+ border-radius: 5px;
+ margin-right: 10px;
+ background-color: #f7f7f7;
+ height: 20px;
+ text-decoration: none;
+}
+
+input[type="search"]:focus {
+ outline: none;
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+ background-color: #f7f7f7;
+}
+
+
+p{ /* le p est le paragraphe ici j ai modifié la couleur pour le mettre en blanc et j ai aussi modifié la police d'écriture */
+color: aliceblue;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img{ /* img permet de modifier l'image comme la taille ainsi que la marge pour bien centré et aussi j ai rajouté une bordure pour que sa rende plus beau */
+height:250px;
+width: 200px;
+border: solid 5px rgb(255, 255, 255) ;
+border-radius: 15%;
+padding: 10px;
+
+
+
+}
+
+
+img:hover{  /* j ai mis un hover pour l'image pour que l'orsu on passe la souris par dessus ça s'agrandit et le box-shadow permet de donner un effet lumineux autour de la carte */
+box-shadow: 0px 0px 5px  5px ;
+color: rgb(255, 255, 255);
+border-radius: 15%;
+scale: 1.04;
+
+}
+h1{   /* ici on a un titre que j ai centrer agrandit et changé de couleur avec le titre souligné avec une police d'écriture */
+color: rgb(255, 255, 255);
+text-decoration: underline;
+font-size: larger;
+margin-left: 60px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-left: 20px;
+text-decoration: underline;
+}
+h1:hover{ /* ici nous avons un hover avec lequelle lorsqu'on passe la souris par dessus sa devient plus grand */
+scale: 1.2;
+color: rgb(72, 72, 72);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+h2{/* ici on a un titre que j ai centrer agrandit et changé de couleur avec le titre souligné avec une police d'écriture */
+display: none;
+}
+
+h1:hover +  h2 +img{ /* ici nous avons le h1 qui est celuis du code en js avec un hover c'est a dire lorsqu'on passe la souris par dessus avec le h2 qui les charactéristiques et l'image des personnages harrypotter*/
+display: block;
+scale: 1.1;
+box-shadow:0px 5px 5px 5px    #dbd406, 
+-10px -10px 10px #8e8a13, 
+0 0 10px #a99f39; 
+
+}
+h2 .p {
+  margin: 5px 0;
+  display: none;
+}
+h1:hover + h2{
+  display: block;
+}
+h3{/* ici on a un titre que j ai centrer agrandit et changé de couleur avec le titre souligné avec une police d'écriture */
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #ffffff;
+  font-size: x-large;
+  margin-left: 570px;
+
+}
+p{  /* le p est le paragraphe ici j ai modifié la couleur pour le mettre en blanc et j ai aussi modifié la police d'écriture */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(72, 72, 72);
+  font-size: medium;
+  height: 20px;
+  text-align: center;
+}
+
+.character {
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+#harry-potter-characters{
+display: flex;
+flex-wrap: wrap;
+}
+.div{ /* ici il y a une div avec avec un flex qui permet de reunir tout les éléments */
+  display: flex;
+  flex-wrap: wrap;
+}
+.div:hover{
+  display: flex;
+  flex-wrap: wrap;
+  scale: 2;
+
+}
+
+footer{   /*ici j'ai fais un footer fond noir */
+  background-color: black;
+  height: 90px;
+  margin-top: 30px;
+}

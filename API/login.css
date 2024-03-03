@@ -1,0 +1,115 @@
+*{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0;
+    background-color:  rgb(192, 192, 192);
+}
+
+a{
+    margin-left: 290px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a:hover{
+    color: rgb(255, 230, 0); 
+}
+.bouton img{
+    height: 15px;
+}
+body{
+    
+    margin: 25%;
+    padding-top: 5px;
+    
+}
+
+form{
+    margin-top: 20px;
+    box-shadow:  #8e8a13 5px 30px 35px ;
+    border: 5px solid rgb(255, 230, 0);
+    background-color:  rgb(192, 192, 192)
+    
+    
+    
+}
+form  div {
+    margin: 30px 20px;
+
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 8px ;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+input{
+    height: 20px;
+    width: 40%;
+    color: #ffffff;
+}
+
+button{
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 10px 32px;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+
+}
+button:hover{
+    scale: 1.2;
+}
+
+.message-error {
+    border: 1px solid rgba(212, 42, 0, 1); 
+    color: rgb(212, 42, 0); 
+    background-color:rgba(212, 42, 0, 0.4); 
+    padding: 16px 32px; 
+    margin-bottom: 20px; 
+    display: none;
+}
+.message-success {
+    border: 1px solid rgb(81, 150, 2); 
+    color: rgb(81, 150, 2); 
+    background-color:rgba(113, 212, 0, 0.4); 
+    padding: 16px 32px;
+     margin-bottom: 20px; 
+     display: none;
+}
+
+.success{
+    border: 1px solid rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+}
+ .message-error.visible{
+    display:block;
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container {
+text-align: center;
+margin: 20px; 
+height: 30px;
+}
+.image {
+    width: 50%; 
+    max-width: 600px;
+    height: auto; 
+    margin-top: 0;
+    margin-top: 0px;
+}
